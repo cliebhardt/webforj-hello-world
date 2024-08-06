@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.webforj.samples",
+    "module": "webforj-hello-world",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.webforj",
+          "module": "webforj",
+          "version": {
+            "requires": "24.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webforj-hello-world-1.0-SNAPSHOT.jar",
+          "url": "webforj-hello-world-1.0-SNAPSHOT.jar",
+          "size": 2192,
+          "sha512": "6814a9c1e1ee605a28ebfe1d3a752b2668728315e3a1617d3d9ca5b3f38fefabd118714460b7fc836243bf7316b7876ae6b6ccb5c6275dba13e79aaccd2f81ee",
+          "sha256": "e35eb11000cc8e3954d868c247eb9fd740ee198a4a1a2cdf444a5dab3b3552fa",
+          "sha1": "9893765d2df2edd6ca0c2b6d84f4ea1587813a8f",
+          "md5": "93a3c777a17a68ff3afba4f30b8966f4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.webforj",
+          "module": "webforj",
+          "version": {
+            "requires": "24.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webforj-hello-world-1.0-SNAPSHOT.jar",
+          "url": "webforj-hello-world-1.0-SNAPSHOT.jar",
+          "size": 2192,
+          "sha512": "6814a9c1e1ee605a28ebfe1d3a752b2668728315e3a1617d3d9ca5b3f38fefabd118714460b7fc836243bf7316b7876ae6b6ccb5c6275dba13e79aaccd2f81ee",
+          "sha256": "e35eb11000cc8e3954d868c247eb9fd740ee198a4a1a2cdf444a5dab3b3552fa",
+          "sha1": "9893765d2df2edd6ca0c2b6d84f4ea1587813a8f",
+          "md5": "93a3c777a17a68ff3afba4f30b8966f4"
+        }
+      ]
+    }
+  ]
+}
